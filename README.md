@@ -11,8 +11,9 @@ The BlueSea iOS Adapter for TradPlus Mediation, distributed via Swift Package Ma
    ```
    https://github.com/blueseasx/BlueSeaSDK-TradPlus-Adapter-Swift-Package
    ```
-3. Select **Exact Version** and enter the encoded version (e.g. `1090000.0.0` for adapter version `1.9.0.0`).
+3. Select **Exact Version** and enter the encoded version (e.g. `1090100.0.0` for adapter version `1.9.1.0`).
 4. Add the `BlueSeaTradPlusAdapter` product to your app target.
+5. Enable the `-ObjC` flag in Xcode: click on your project settings, go to **Build Settings**, search for **Other Linker Flags** and add `-ObjC`.
 
 ### Package.swift
 
@@ -20,7 +21,7 @@ The BlueSea iOS Adapter for TradPlus Mediation, distributed via Swift Package Ma
 dependencies: [
     .package(
         url: "https://github.com/blueseasx/BlueSeaSDK-TradPlus-Adapter-Swift-Package.git",
-        exact: "1090000.0.0"
+        exact: "1090100.0.0"
     )
 ]
 ```
